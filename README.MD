@@ -26,13 +26,13 @@
 
 ## Usage:
 
-Open a terminal or command prompt and navigate to the project directory.
-Run the app: streamlit run app.py (replace app.py with your main script name if different).
-In the Streamlit interface:
-Paste the job description into the "Job Description" text area.
-Upload your resume in PDF format using the "Upload Your Resume" file uploader.
-Click the "Submit" button.
-The app will process your resume using Google's NLP API and provide a comprehensive response, including:
-JD Match (%): A percentage score indicating how well your resume aligns with the job description.
-Missing Keywords: A list of keywords identified in the job description that are absent from your resume.
-Profile Summary: Feedback and suggestions on improving your profile summary for better visibility.
+- Open a terminal or command prompt and navigate to the project directory.
+- Run the app: streamlit run app.py (replace app.py with your main script name if different).
+####  In the Streamlit interface:
+- Paste the job description into the "Job Description" text area.
+- Upload your resume in PDF format using the "Upload Your Resume" file uploader.
+- Click the "Submit" button.
+#### The app will process your resume using Google's NLP API and provide a comprehensive response, including:
+- JD Match (%): A percentage score indicating how well your resume aligns with the job description.
+- Missing Keywords: A list of keywords identified in the job description that are absent from your resume.
+- Profile Summary: Feedback and suggestions on improving your profile summary for better visibility.
